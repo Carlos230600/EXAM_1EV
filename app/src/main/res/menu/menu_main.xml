@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    // Item 1 perfil
+    <item
+        android:id="@+id/action_perfil"
+        android:icon="@mipmap/perfil_icon"
+        android:onClick=""
+        android:orderInCategory="40"
+        android:title="@string/menu_perfil"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    //Item 2 Correo
+    <item
+        android:id="@+id/action_correo"
+        android:icon="@mipmap/correo_icon"
+        android:onClick="enviaCorreo"
+        android:orderInCategory="60"
+        android:title="@string/menu_correo"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    //Item 3 telefono
+    <item
+        android:id="@+id/telefono"
+        android:icon="@mipmap/telefono_icon"
+        android:onClick="llamar"
+        android:orderInCategory="80"
+        android:title="@string/menu_telefono"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>

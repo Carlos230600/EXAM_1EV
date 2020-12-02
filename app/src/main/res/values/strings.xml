@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EXAM 1EV</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_correo">Correo</string>
+    <string name="menu_telefono">Telefono</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="phone">Phone</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="e_mail_address">E-mail Address</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="name">Name</string>
+</resources>
